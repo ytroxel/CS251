@@ -9,9 +9,11 @@ ClassName( TypeName1 parameterName1, TypeName2 parameterName2, ... )*/
 #include <string>
 using namespace std;
 
-class Invoice(string pN, int pNu, string pD, int qu)
+class Invoice
 {
 public:
+  Invoice(string pN, int pNu, string pD, int qu);
+  
   void setName(string pN)
   {
     pName = pN;
