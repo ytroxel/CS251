@@ -6,3 +6,13 @@ have a constructor that initializes the four data members. A constructor that re
 form:
 ClassName( TypeName1 parameterName1, TypeName2 parameterName2, ... )*/
 
+#include <string>
+using namespace std;
+
+class Invoice 
+{
+public:
+
+private:
+
+}
