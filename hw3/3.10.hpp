@@ -9,10 +9,46 @@ ClassName( TypeName1 parameterName1, TypeName2 parameterName2, ... )*/
 #include <string>
 using namespace std;
 
-class Invoice 
+class Invoice(string pN, int pNu, string pD, int qu)
 {
 public:
+  void setName(string pN)
+  {
+    pName = pN;
+  }
+  void setNumber(int pNu)
+  {
+    pNum = pNu;
+  }  
+  void setDescription(string pD)
+  {
+    pDes = pD;
+  }  
+  void setQuantity(int qu)
+  {
+    quant = qu;
+  } 
+  
+  string getName() const
+  {
+    return pName;
+  }
+  int getNumber() const
+  {
+    return pNum;
+  }
+  string setDescription() const
+  {
+    return pDes;
+  }
+  int setQuantity() const
+  {
+    return quant;
+  }
 
 private:
-
+stirng pName;
+int pNum;
+string pDes;
+int quant;
 }
