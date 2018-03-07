@@ -1,0 +1,15 @@
+ch4
+
+static_cast - can not change
+
+
+cout << setprecision(2) << fixed;
+what can we do about fixed
+89.2 fixed(that number of digit position)
+otherwise 89.20
+
+setprecision with argument of 2 will print with 2 digits of precision to the right of the decimal
+
+static_cast operator perfomr floating point calculations with integers,create temp floating point values.
+
+
