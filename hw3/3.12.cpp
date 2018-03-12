@@ -6,7 +6,6 @@ displayDate that displays the month, day and year separated by forward slashes(/
 capabilities*/
 
 #include <iostream>
-#include <string>
 #include "Date.hpp"
 using namespace std;
 
@@ -18,12 +17,10 @@ int day, month, year;
 cout << "Enter the day of the Date:\n" << "DD\r";
 cin >> day;
 object.setDay(day);
-//cout << object.getDay() << endl;
 
 cout << "Enter the month of the Date:\n" << "MM\r";
 cin >> month;
 object.setMonth(month);
-//cout << object.getMonth() << endl;
 
 if (month <= 1)
 	object.setMonth(1);
