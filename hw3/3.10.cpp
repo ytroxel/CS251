@@ -6,11 +6,12 @@ using namespace std;
 
 int main()
 {
-Account invoice1(string name, int number, string descrip, int quantity)
+  Account invoice1(string name, int number, string descrip, int quantity)
   
   cout << "Enter tool name: \n";
   getline(cin, name);
   Invoice.setName(name);
+  cin.ignore;
   
   cout << "Enter tool number: \n";
   cin >> number;
